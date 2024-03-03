@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db04b16560c612525a41857018874931",
+    "content-hash": "d22fd5862bb8d4ae9d7d6da73dfb27b5",
     "packages": [
         {
             "name": "brick/math",
@@ -500,6 +500,59 @@
                 }
             ],
             "time": "2023-10-06T06:47:41+00:00"
+        },
+        {
+            "name": "f9webltd/laravel-api-response-helpers",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/f9webltd/laravel-api-response-helpers.git",
+                "reference": "dbb734fcc878009bf542eaba020716691cfffeb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/f9webltd/laravel-api-response-helpers/zipball/dbb734fcc878009bf542eaba020716691cfffeb5",
+                "reference": "dbb734fcc878009bf542eaba020716691cfffeb5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^8.12|^9.0|^10.0",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.23|^7.0|^8.0",
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "F9Web\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Allport",
+                    "email": "rob@f9web.co.uk",
+                    "homepage": "https://www.f9web.co.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A super simple package allowing for consistent API responses throughout your Laravel application ",
+            "homepage": "https://github.com/f9webltd/laravel-api-response-helpers",
+            "keywords": [
+                "laravel",
+                "laravel api response",
+                "laravel api response helpers"
+            ],
+            "support": {
+                "issues": "https://github.com/f9webltd/laravel-api-response-helpers/issues",
+                "source": "https://github.com/f9webltd/laravel-api-response-helpers/tree/2.0.0"
+            },
+            "time": "2023-10-16T12:09:59+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1250,6 +1303,62 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2024-02-27T16:46:54+00:00"
+        },
+        {
+            "name": "laravel/legacy-factories",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/legacy-factories.git",
+                "reference": "6cb79f668fc36b8b396ada1da3ba45867889c30f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/legacy-factories/zipball/6cb79f668fc36b8b396ada1da3ba45867889c30f",
+                "reference": "6cb79f668fc36b8b396ada1da3ba45867889c30f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/macroable": "^8.0|^9.0|^10.0|^11.0",
+                "php": "^7.3|^8.0",
+                "symfony/finder": "^3.4|^4.0|^5.0|^6.0|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Illuminate\\Database\\Eloquent\\LegacyFactoryServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "helpers.php"
+                ],
+                "psr-4": {
+                    "Illuminate\\Database\\Eloquent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The legacy version of the Laravel Eloquent factories.",
+            "homepage": "http://laravel.com",
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2024-01-15T13:55:14+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -2031,6 +2140,69 @@
                 }
             ],
             "time": "2024-01-28T23:22:08+00:00"
+        },
+        {
+            "name": "lerouse/laravel-repository",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lerouse/laravel-repository.git",
+                "reference": "6973c1d87e08b652b388a67384b6e7f0e0df6091"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lerouse/laravel-repository/zipball/6973c1d87e08b652b388a67384b6e7f0e0df6091",
+                "reference": "6973c1d87e08b652b388a67384b6e7f0e0df6091",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/contracts": "^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/events": "^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
+                "laravel/legacy-factories": "^1.2",
+                "php": "^8.0|^8.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "~1.0",
+                "orchestra/testbench": "^4.0||^5.0||^6.0||^7.0||^8.0",
+                "phpunit/phpunit": "^7.3||^8.2||^9.3||^10.0"
+            },
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Lerouse\\LaravelRepository\\LaravelRepositoryServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lerouse\\LaravelRepository\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Innerbichler"
+                }
+            ],
+            "description": "Repository implementation for Laravel.",
+            "keywords": [
+                "database",
+                "eloquent",
+                "laravel",
+                "repository"
+            ],
+            "support": {
+                "issues": "https://github.com/lerouse/laravel-repository/issues",
+                "source": "https://github.com/lerouse/laravel-repository/tree/v2.4.0"
+            },
+            "time": "2024-01-25T10:38:35+00:00"
         },
         {
             "name": "monolog/monolog",
